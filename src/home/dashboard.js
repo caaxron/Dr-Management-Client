@@ -46,7 +46,7 @@ function Dashboard() {
             className="shadow-2xl rounded-full shadow-cyan-700"
             type="doughnut"
             data={{
-              labels: ["Doctor", "Patient", "Visit"],
+              labels: ["Doctor", "Patient", "Visit", "Schedule For Today"],
               datasets: [
                 {
                   backgroundColor: ["#22577a", "#38a3a5", "#57cc99", "#1e3a8a"],
