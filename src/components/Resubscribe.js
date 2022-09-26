@@ -91,7 +91,7 @@ function Resubscribe() {
                 </h2>
                 <div class="relative z-0 mb-6 w-full group">
                   <input
-                    type="text"
+                    type="email"
                     name="company"
                     id="company"
                     class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-cyan-700 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-cyan-700 peer"

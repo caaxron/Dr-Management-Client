@@ -4,11 +4,12 @@ export const subscribe = async (subscribe) => {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
+        "x-auth-token": localStorage.getItem("token"),
       },
       body: JSON.stringify(subscribe),
     });
-    const data = await res.text();
-    // return data;
+    const data = await res.json();
+
     if (res.ok) {
       return data;
     } else {

@@ -84,18 +84,17 @@ function Subscribe() {
         <div className="w-1/2 w-full h-screen">
           <div className="flex justify-start items-center h-screen">
             <div className="w-9xl h-5/6 shadow-2xl">
-              <form className="lg:px-20 xl:px-40 py-20" method="POST">
+              <form className="lg:px-20 xl:px-40 py-20">
                 <h2 className="text-center text-cyan-700 text-3xl font-bold py-5">
                   Create Company
                 </h2>
                 <div class="relative z-0 mb-6 w-full group">
                   <input
-                    type="text"
+                    type="email"
                     name="company"
-                    id="company"
                     class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-cyan-700 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-cyan-700 peer"
                     placeholder=" "
-                    required=""
+                    // required=""
                     onChange={onChangeHandler}
                   />
                   <label
@@ -109,7 +108,6 @@ function Subscribe() {
                   <input
                     type="password"
                     name="code"
-                    id="code"
                     class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-cyan-700 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-cyan-700 peer"
                     placeholder=" "
                     required=""
