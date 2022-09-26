@@ -13,7 +13,7 @@ export const Header = () => {
       </div>
       <div className="flex">
         <h1 className="text text-blue-900 mx-auto text-center p-2 md:w-3/6 break-words text-md lg:text-xl">
-          Dr.Management is a system enabling hospitals to manage information and
+          Dr.Management is a system enabling clinic to manage information and
           data related to all aspects of healthcare – processes, providers,
           patients, and more, which in turn ensures that processes are completed
           swiftly and effectively.
