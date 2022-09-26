@@ -305,7 +305,7 @@ function Home() {
           className="flex-1 p-6 lg:px-0 overflow-auto h-screen"
         >
           <div className="max-w-7xl mx-auto">
-            <div className="px-4 py-6 sm:px-0">
+            <div className="px-4 py-6 sm:px-5">
               <div class="tab-content" id="pills-tabContentVertical">
                 <div
                   class="tab-pane fade show active"
