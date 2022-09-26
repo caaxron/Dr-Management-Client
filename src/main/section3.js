@@ -72,14 +72,14 @@ export const Section3 = () => {
               <div class="relative z-0 mb-6 w-full group">
                 <input
                   type="text"
-                  name="name"
-                  id="name"
+                  name="First Name"
+                  id="First Name"
                   class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-cyan-700 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-cyan-700 peer"
                   placeholder=" "
                   required=""
                 />
                 <label
-                  for="name"
+                  for="First Name"
                   class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-cyan-700 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                 >
                   First name
@@ -88,14 +88,14 @@ export const Section3 = () => {
               <div class="relative z-0 mb-6 w-full group">
                 <input
                   type="text"
-                  name="floating_last_name"
-                  id="floating_last_name"
+                  name="Last Name"
                   class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-cyan-700 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-cyan-700 peer"
                   placeholder=" "
                   required=""
+                  id="Last Name"
                 />
                 <label
-                  for="floating_last_name"
+                  for="Last Name"
                   class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-cyan-700 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                 >
                   Last name
@@ -107,14 +107,14 @@ export const Section3 = () => {
                 <input
                   type="tel"
                   pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                  name="floating_phone"
-                  id="floating_phone"
+                  name="tel"
+                  id="tel"
                   class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-cyan-700 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-cyan-700 peer"
                   placeholder=" "
                   required=""
                 />
                 <label
-                  for="floating_phone"
+                  for="tel"
                   class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-cyan-700 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                 >
                   Phone number (123-456-7890)
@@ -123,14 +123,14 @@ export const Section3 = () => {
               <div class="relative z-0 mb-6 w-full group">
                 <input
                   type="text"
-                  name="floating_company"
-                  id="floating_company"
+                  name="Company"
+                  id="Company"
                   class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-cyan-700 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-cyan-700 peer"
                   placeholder=" "
                   required=""
                 />
                 <label
-                  for="floating_company"
+                  for="Company"
                   class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-cyan-700 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                 >
                   Company (name)
@@ -139,15 +139,15 @@ export const Section3 = () => {
             </div>
             <div class="relative z-0 mb-6 w-full group">
               <input
-                type="email"
-                name="email"
-                id="email"
+                type="Email"
+                name="Email"
+                id="Email"
                 class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-cyan-700 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-cyan-700 peer"
                 placeholder=" "
                 required=""
               />
               <label
-                for="email"
+                for="Email"
                 class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-cyan-700 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
               >
                 Email address
@@ -155,14 +155,14 @@ export const Section3 = () => {
             </div>
             <div class="relative z-0 mb-6 w-full group">
               <input
-                name="message"
-                id="message"
+                name="Message"
+                id="Message"
                 class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-cyan-700 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-cyan-700 peer"
                 placeholder=" "
                 required=""
               />
               <label
-                for="message"
+                for="Message"
                 class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-cyan-700 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
               >
                 Message
