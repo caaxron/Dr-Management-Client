@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#sidebar {
+  --tw-translate-x: -100%;
+}
+#menu-close-icon {
+  display: none;
+}
+
+#menu-open:checked ~ #sidebar {
+  --tw-translate-x: 0;
+}
+#menu-open:checked ~ * #mobile-menu-button {
+  background-color: rgba(31, 41, 55, var(--tw-bg-opacity));
+}
+#menu-open:checked ~ * #menu-open-icon {
+  display: none;
+}
+#menu-open:checked ~ * #menu-close-icon {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  #sidebar {
+    --tw-translate-x: 0;
+  }
+}
+
+.app {
+  background-image: url(./images/paint1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.app {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.nav-1 {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+@media only screen and (max-width: 767px) {
+  .nav-1 {
+    background-color: white;
+  }
+}
+
+.logo {
+  position: relative;
+}
+
+.text {
+  position: relative;
+}
+
+.more {
+  position: relative;
+}
+
+.button {
+  position: relative;
+  z-index: 5;
+}
+
+.link {
+  display: inline-block;
+  position: relative;
+}
+
+.link:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #1a5276;
+  transform-origin: bottom right;
+  transition: transform 0.5s ease-out;
+  color: black;
+}
+
+.link:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.nav {
+  background-color: transparent;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #0891b2;
+}
+.nav-pills .nav-link:hover {
+  background-color: #0891b2;
+  color: white;
+}
+
+@media (min-width: 765px) {
+  #sidebar {
+    z-index: 2;
+  }
+}
+
+#sidebar {
+  z-index: 2;
+}
+
+.modal-backdrop {
+  z-index: 0;
+}
+
+#content {
+  position: relative;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap");
+section {
+  font-family: "Manrope", "sans-serif";
+}
