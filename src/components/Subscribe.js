@@ -28,7 +28,6 @@ function Subscribe() {
     },
     onError: async () => {
       let x = await mutation.error;
-      // // alert(x);
       toast.error(x, {
         position: "top-center",
         autoClose: 1000,
@@ -85,7 +84,7 @@ function Subscribe() {
         <div className="w-1/2 w-full h-screen">
           <div className="flex justify-start items-center h-screen">
             <div className="w-9xl h-5/6 shadow-2xl">
-              <form className="lg:px-20 xl:px-40 py-20">
+              <form className="lg:px-20 xl:px-40 py-20" method="POST">
                 <h2 className="text-center text-cyan-700 text-3xl font-bold py-5">
                   Create Company
                 </h2>
