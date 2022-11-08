@@ -10,32 +10,32 @@ function Nav() {
         <div className=" sm:px-6 ">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center hidden md:block space-x-10 lg:space-x-16 ">
-              <a class="link text-xl text-cyan-700 " href="/">
+              <a class="link text-lg text-cyan-700 " href="/">
                 Home
               </a>
-              <a class="link text-xl text-cyan-700 " href="#section-1">
+              <a class="link text-lg text-cyan-700 " href="#section-1">
                 About
               </a>
-              <a class="link text-xl text-cyan-700 " href="#section-2">
+              <a class="link text-lg text-cyan-700 " href="#section-2">
                 Features
               </a>
-              <a class="link text-xl text-cyan-700 " href="#section-4">
+              <a class="link text-lg text-cyan-700 " href="#section-4">
                 Subscribes
               </a>
-              <a class="link text-xl text-cyan-700 " href="#section-3">
+              <a class="link text-lg text-cyan-700 " href="#section-3">
                 Contact
               </a>
             </div>
             <div className="hidden md:block">
               <Link
                 to="/login"
-                className="button text-white px-7 py-2.5 bg-cyan-700 rounded-full hover:bg-cyan-600 mr-3"
+                className="button text-white px-7 py-2.5 bg-cyan-700 rounded-lg hover:bg-cyan-600 mr-3"
               >
                 Sign in
               </Link>
               <Link
                 to="/register"
-                className="button text-white px-7 py-2.5 bg-cyan-700 rounded-full hover:bg-cyan-600"
+                className="button text-white px-7 py-2.5 bg-cyan-700 rounded-lg hover:bg-cyan-600"
               >
                 Sign up
               </Link>
