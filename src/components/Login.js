@@ -150,7 +150,7 @@ function Login() {
                     onClick={onSubmitHandler}
                     class="text-center text-white bg-cyan-700 hover:bg-cyan-800 font-medium rounded-lg text-md sm:w-auto px-5 py-2.5 "
                   >
-                    Submit
+                    Sign in
                   </button>
                 </div>
               </form>
@@ -242,7 +242,7 @@ function Login() {
                   type="submit"
                   class="text-white bg-cyan-700 hover:bg-cyan-800 font-medium rounded-lg text-md sm:w-auto px-5 py-2.5 "
                 >
-                  Submit
+                  Sign in
                 </button>
               </div>
             </form>
