@@ -57,9 +57,9 @@ function Dashboard() {
           />
         </div>
 
-        <section class="antialiased font-ssans flex">
-          <div class="mx-auto m-8 space-y-12">
-            <div class="pl-1 w-64 sm:w-96 h-28 bg-sky-900 rounded-lg shadow-md hover:shadow-sky-900 transition duration-700 ease-in-out">
+        <section class="antialiased font-ssans flex ">
+          <div class="mx-auto m-8 space-y-12 ">
+            <div class="pl-1 w-64 sm:w-96 h-28 bg-sky-900 rounded-lg shadow-[0px_0px_10px_2px_rgba(0,0,0,0.3)]  hover:shadow-sky-900 transition duration-700 ease-in-out">
               <div class="flex w-full h-full py-2 px-4 bg-white rounded-lg justify-between">
                 <div class="my-auto">
                   <p class="font-bold">DOCTOR</p>
@@ -71,7 +71,7 @@ function Dashboard() {
               </div>
             </div>
 
-            <div class="pl-1 w-64 sm:w-96  h-28 bg-teal-700 rounded-lg shadow-md hover:shadow-teal-700 transition duration-700 ease-in-out">
+            <div class="pl-1 w-64 sm:w-96  h-28 bg-teal-700 rounded-lg shadow-[0px_0px_10px_2px_rgba(0,0,0,0.3)] hover:shadow-teal-700 transition duration-700 ease-in-out">
               <div class="flex w-full h-full py-2 px-4 bg-white rounded-lg justify-between">
                 <div class="my-auto">
                   <p class="font-bold">PATIENT</p>
@@ -83,7 +83,7 @@ function Dashboard() {
               </div>
             </div>
 
-            <div class="pl-1 w-64 sm:w-96  h-28 bg-emerald-400 rounded-lg shadow-md hover:shadow-emerald-400 transition duration-700 ease-in-out">
+            <div class="pl-1 w-64 sm:w-96  h-28 bg-emerald-400 rounded-lg shadow-[0px_0px_10px_2px_rgba(0,0,0,0.3)] hover:shadow-emerald-400 transition duration-700 ease-in-out">
               <div class="flex w-full h-full py-2 px-4 bg-white rounded-lg justify-between">
                 <div class="my-auto">
                   <p class="font-bold">VISIT</p>
@@ -95,7 +95,7 @@ function Dashboard() {
               </div>
             </div>
 
-            <div class="pl-1 w-64 sm:w-96  h-28 bg-blue-900 rounded-lg shadow-md hover:shadow-blue-900 transition duration-700 ease-in-out">
+            <div class="pl-1 w-64 sm:w-96  h-28 bg-blue-900 rounded-lg shadow-[0px_0px_10px_2px_rgba(0,0,0,0.3)] hover:shadow-blue-900 transition duration-700 ease-in-out">
               <div class="flex w-full h-full py-2 px-4 bg-white rounded-lg justify-between">
                 <div class="my-auto">
                   <p class="font-bold">SCHEDULE FOR TODAY</p>

@@ -4,7 +4,7 @@ import contactImage from "../images/5329559.jpg";
 export const Section3 = () => {
   return (
     <section id="section-3" className="">
-      <div className="grid grid-cols-1 lg:grid-cols-2 bg-gray-100">
+      <div className="grid grid-cols-1 lg:grid-cols-2 bg-gray-200">
         <div className="lg:hidden bg-cyan-700 text-white text-center h-72 space-y-5 p-5">
           <h1 className="text-lg font-bold underline">Contact Information</h1>
           <h1>

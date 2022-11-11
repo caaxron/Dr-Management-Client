@@ -20,9 +20,9 @@ export const ShowPatient = () => {
 
   return (
     <>
-      <div class="overflow-x-auto relative shadow-md sm:rounded-lg">
+      <div class="overflow-x-auto relative shadow-[0px_0px_10px_2px_rgba(0,0,0,0.3)]  sm:rounded-lg">
         <table class="w-full text-sm text-left text-gray-500 ">
-          <thead class="text-xs text-gray-700 uppercase bg-gray-100">
+          <thead class="text-xs text-gray-700 uppercase bg-gray-300">
             <tr>
               <th scope="col" class="py-3 px-6">
                 Patient Name

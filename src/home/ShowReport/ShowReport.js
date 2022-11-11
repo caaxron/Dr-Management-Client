@@ -20,10 +20,10 @@ export const ShowReport = ({ data }) => {
 
   return (
     <>
-      <div class="overflow-x-auto relative max-w-3xl p-10">
-        <div className="h-96 overflow-auto">
-          <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-            <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+      <div class="overflow-x-auto relative max-w-3xl shadow-[0px_0px_10px_2px_rgba(0,0,0,0.3)]">
+        <div className="h-96 overflow-auto ">
+          <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400 ">
+            <thead class="text-xs text-gray-700 uppercase bg-gray-300 dark:bg-gray-700 dark:text-gray-400">
               <tr>
                 <th scope="col" class="py-3 px-6">
                   Details

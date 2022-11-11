@@ -32,7 +32,7 @@ export const ViewReport = () => {
       </Link>
       <div className="grid grid-cols-1 lg:grid-cols-2">
         {/* {!isLoading ? ( */}
-        <div className="shadow-2xl m-4 rounded-2xl mx-auto">
+        <div className="shadow-[0px_0px_10px_2px_rgba(0,0,0,0.3)] m-4 rounded-2xl mx-auto">
           <div className=" py-5 px-10 rounded-t-3xl">
             <div className="flex justify-center">
               <img src={profile} alt="" className="w-20 rounded-full" />

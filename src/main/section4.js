@@ -21,7 +21,7 @@ export const Section4 = () => {
             </p>
           </div>
           <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
-            <div class="flex flex-col p-10 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg shadow-2xl hover:shadow-cyan-700 transition duration-1000 ease-in-out">
+            <div class="flex flex-col p-10 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg shadow-[0px_0px_10px_2px_rgba(0,0,0,0.3)] hover:shadow-cyan-700 transition duration-1000 ease-in-out">
               <h3 class="mb-4 text-2xl font-semibold">Starter</h3>
               <div class="flex justify-center items-baseline my-8">
                 <span class="mr-2 text-4xl font-extrabold text-cyan-700">
@@ -170,7 +170,7 @@ export const Section4 = () => {
               )}
             </div>
 
-            <div class="flex flex-col p-10 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg shadow-2xl hover:shadow-cyan-700 transition duration-1000 ease-in-out">
+            <div class="flex flex-col p-10 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg shadow-[0px_0px_10px_2px_rgba(0,0,0,0.3)] hover:shadow-cyan-700 transition duration-1000 ease-in-out">
               <h3 class="mb-4 text-2xl font-semibold">Company</h3>
               <div class="flex justify-center items-baseline my-8">
                 <span class="mr-2 text-4xl font-extrabold text-cyan-700">
@@ -318,7 +318,7 @@ export const Section4 = () => {
               )}
             </div>
 
-            <div class="flex flex-col p-10 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg shadow-2xl hover:shadow-cyan-700 transition duration-1000 ease-in-out">
+            <div class="flex flex-col p-10 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg shadow-[0px_0px_10px_2px_rgba(0,0,0,0.3)] hover:shadow-cyan-700 transition duration-1000 ease-in-out">
               <h3 class="mb-4 text-2xl font-semibold">Enterprise</h3>
               <div class="flex justify-center items-baseline my-8">
                 <span class="mr-2 text-4xl font-extrabold text-cyan-700">

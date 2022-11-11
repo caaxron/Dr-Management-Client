@@ -34,7 +34,7 @@ function Profile() {
   return (
     <>
       <div className="grid grid-cols-1 lg:grid-cols-2">
-        <div class="p-6 max-w-xs w-full bg-white rounded-lg shadow-xl mx-auto">
+        <div class="p-6 max-w-xs w-full bg-white rounded-lg shadow-[0px_0px_10px_2px_rgba(0,0,0,0.3)] mx-auto">
           <h1 className="text-center text-2xl text-cyan-700 underline">
             Profile details
           </h1>
@@ -232,7 +232,7 @@ function Profile() {
           </div>
         </div>
 
-        <div className="flex flex-col space-y-8 shadow-md p-8 rounded">
+        <div className="flex flex-col space-y-8 shadow-[0px_0px_10px_2px_rgba(0,0,0,0.3)] p-8 rounded">
           <EditUser data={data} />
         </div>
       </div>
