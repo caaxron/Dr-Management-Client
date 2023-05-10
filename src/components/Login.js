@@ -28,6 +28,7 @@ function Login() {
     },
     onError: async () => {
       let x = await mutation.error;
+      console.log("failed");
       // alert(x);
       toast.error(x, {
         position: "top-center",
